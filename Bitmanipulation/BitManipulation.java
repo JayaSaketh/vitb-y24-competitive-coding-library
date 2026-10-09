@@ -18,16 +18,7 @@ class BitManipulation {
         return n;
 
     }
-    public static int countSetBits(long n) {
-        int count = 0;
-        for(long i=0;i<=63;i++)
-        {
-            if(((n>>i)&1L)==1)
-            {
-                count++;
-            }
-        }
-        return count;
-    }
+    
+    
       
 }
